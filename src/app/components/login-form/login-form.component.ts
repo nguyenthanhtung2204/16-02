@@ -34,8 +34,9 @@ export class LoginFormComponent implements OnInit {
       //send the obj to database
     }
     else{
-      console.log("Form is not valid")
       //throw the error using toaster and with required fields
+      this.validateAllFormFileds(this.loginForm);
+      alert("Vui lòng nhập thông tin")
     }
   }
   private validateAllFormFileds(formGroup:FormGroup){

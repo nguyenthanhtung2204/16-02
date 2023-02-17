@@ -8,6 +8,8 @@ import { ComponentsComponent } from './components/components.component';
 import { LoginFormComponent } from './components/login-form/login-form.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { MenuListComponent } from './components/menu-list/menu-list.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ComponentsComponent,
     LoginFormComponent,
     SignupComponent,
+    NavbarComponent,
+    MenuListComponent,
   ],
   imports: [
     BrowserModule,
