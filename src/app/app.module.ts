@@ -10,7 +10,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MenuListComponent } from './components/menu-list/menu-list.component';
-
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -27,6 +27,7 @@ import { MenuListComponent } from './components/menu-list/menu-list.component';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,7 +6,7 @@ import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {path:'', component: LoginFormComponent},
+  // {path:'', component: LoginFormComponent},
   {path:'signup', component: SignupComponent},
   {path:'login-form', component: LoginFormComponent},
   {path:'navbar',component:NavbarComponent},

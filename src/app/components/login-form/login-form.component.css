@@ -79,3 +79,6 @@ img{
     border-radius: 30%;
     position: relative;
 }
+.at-mdc-dialog-surface{
+    overflow: scroll !important;
+  }
